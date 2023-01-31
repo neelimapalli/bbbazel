@@ -1,6 +1,6 @@
 load("@aspect_rules_swc//swc:defs.bzl", "swc")
 load("@aspect_rules_ts//ts:defs.bzl", "ts_project", "ts_config")
-load("@aspect_rules_js//js:defs.bzl", "js_binary", "js_library", "js_run_devserver")
+load("@aspect_rules_js//js:defs.bzl", "js_binary", "js_library", "js_run_devserver", "js_run_binary")
 load("@bazel_skylib//lib:partial.bzl", "partial")
 load("@jest//:defs.bzl", "jest_test")
 load("@npm//:@nestjs/cli/package_json.bzl", nest_bin = "bin")
