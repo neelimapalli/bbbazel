@@ -4,7 +4,7 @@ console.log('Jest config loaded');
 /** @type {import('jest').Config} */
 const config = {
   moduleFileExtensions: ['js', 'json', 'ts'],
-  rootDir: 'src',
+  rootDir: '.',
   testRegex: '.*\\.spec\\.ts$',
   transform: {
     '^.+\\.(t|j)s$': 'ts-jest',

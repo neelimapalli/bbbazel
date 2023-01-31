@@ -68,6 +68,9 @@ npm_translate_lock(
         },
         "http-server": {
             "http-server": "./bin/http-server",
+        },
+        "@nestjs": {
+            "@nestjs": "./cli/bin/nest.js",
         }
     },
     pnpm_lock = "//:pnpm-lock.yaml",

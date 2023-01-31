@@ -7,6 +7,6 @@ export class AppService {
   }
 
   getHelloWorld(): {message: string} {
-    return { message: 'Hello Tuesday' };
+    return { message: 'Hello world' };
   }
 }
