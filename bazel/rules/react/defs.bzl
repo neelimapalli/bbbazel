@@ -7,7 +7,7 @@ ASSET_PATTERNS = [
 ]
 
 SRC_PATTERNS = [
-    "src/**/*.tsx"
+    "src/**/*"
 ]
 
 # Filename conventions described at

@@ -12,12 +12,12 @@ ts_config(
     visibility = [":__subpackages__"],
 )
 
-# ts_config(
-#     name = "tsconfig.node",
-#     src = "tsconfig.node.json",
-#     deps = [":tsconfig.base"],
-#     visibility = [":__subpackages__"],
-# )
+ts_config(
+    name = "tsconfig.node",
+    src = "tsconfig.node.json",
+    deps = [":tsconfig.base"],
+    visibility = [":__subpackages__"],
+)
 
 ts_config(
     name = "tsconfig.react",
@@ -33,3 +33,21 @@ copy_to_bin(
     srcs = ["package.json"],
     visibility = ["//visibility:public"],
 )
+
+# copy_to_bin(
+#     name = "tsconfig.base",
+#     srcs = ["tsconfig.base.json"],
+#     visibility = ["//visibility:public"],
+# )
+
+# copy_to_bin(
+#     name = "tsconfig.node",
+#     srcs = ["tsconfig.node.json"],
+#     visibility = ["//visibility:public"],
+# )
+
+# copy_to_bin(
+#     name = "tsconfig.react",
+#     srcs = ["tsconfig.react.json"],
+#     visibility = ["//visibility:public"],
+# )
