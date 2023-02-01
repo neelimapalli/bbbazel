@@ -71,6 +71,9 @@ npm_translate_lock(
         },
         "@nestjs": {
             "@nestjs": "./cli/bin/nest.js",
+        },
+          "next": {
+            "next": "./dist/bin/next",
         }
     },
     pnpm_lock = "//:pnpm-lock.yaml",

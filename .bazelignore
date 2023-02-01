@@ -1,3 +1,4 @@
 node_modules
 examples/backend/node_modules
 examples/frontend/node_modules
+examples/next-frontend-app/node_modules
